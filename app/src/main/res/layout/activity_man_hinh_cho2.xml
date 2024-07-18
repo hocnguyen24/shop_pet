@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_hong"
+    tools:context=".ActivityManHinhCho.Man_Hinh_Cho_2">
+
+    <ImageView
+        android:id="@+id/img_anh_manhinh2"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:src="@drawable/logo_petfood" />
+    <TextView
+        android:id="@+id/txt_text1_manhinh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_anh_manhinh2"
+        android:text="Sản phẩm chất lượng"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:fontFamily="@font/baloothambi2semibold"/>
+    <TextView
+        android:id="@+id/txt_text2_manhinh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_text1_manhinh2"
+        android:textSize="24sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:gravity="center"
+        android:text="Chúng tôi cung cấp những sán phẩm tốt nhất, dinh dưỡng nhất, giúp pet của bạn luôn luôn có thể trạng tốt nhất."/>
+    <Button
+        android:id="@+id/btn_TiepTuc_mh2"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_text2_manhinh2"
+        android:layout_marginTop="60sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:background="@drawable/khung_button"
+        android:text="Tiếp tục"
+        />
+</RelativeLayout>

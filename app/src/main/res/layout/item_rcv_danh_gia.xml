@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vang_dam"
+    android:padding="10sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTenNguoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="Tên người dùng"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtDanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="Đánh giá"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNhanXet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="Nhận xét"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNgayDanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:gravity="end"
+        android:text="28/11/2023"
+        android:textColor="@color/xanh_doan"
+        android:textSize="16sp" />
+</LinearLayout>

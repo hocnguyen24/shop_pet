@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240sp"
+    android:layout_gravity="center_vertical"
+    android:background="@color/mau_hong">
+
+    <TextView
+        android:id="@+id/txtBancochanchanmuonxoa"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:fontFamily="@font/baloothambi2bold"
+        android:gravity="center"
+        android:text="Thông báo!!!!!"
+        android:textColor="#FF0000"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/txtBancochanchanmuonxo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBancochanchanmuonxoa"
+        android:fontFamily="@font/baloothambi2bold"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp"
+        android:text="Để đảm bảo chất lượng cho hệ thống, bạn sẽ không được hủy đơn khi đã thanh toán, chúng tôi xin lỗi vì sự bất tiện này."
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/txtBancochanchanmuonxo"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnThoat"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:background="@drawable/khung_button"
+            android:text="Thoát"
+            android:textColor="@color/mau_chu" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnThanhToan"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:background="@drawable/khung_button"
+            android:text="Thanh toán"
+
+            android:textColor="#4696EB" />
+    </LinearLayout>
+</RelativeLayout>

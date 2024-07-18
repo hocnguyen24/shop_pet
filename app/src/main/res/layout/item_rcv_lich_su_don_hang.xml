@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+
+    android:background="@drawable/khung_item"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_Mdonhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:fontFamily="@font/baloothambi2regular"
+            android:text="Mã đơn hàng: "
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/btn_xoa_don_hang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="7sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/khung_item"
+            android:src="@drawable/ic_xoa" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/txt_Mnguoidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:text="Mã người dùng: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txt_DH_tennguoidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:text="Tên người dùng: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_ngay_dat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:text="Ngày đặt hàng: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txt_Trang_Thai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:text="Trạng thái: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_tong_tien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:text="Tổng tiền:    "
+        android:drawableEnd="@drawable/ic_coin"
+        android:layout_marginBottom="10sp"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

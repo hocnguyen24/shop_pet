@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pet Shop</string>
+    <string name="sign_up">Đăng nhập</string>
+    <string name="user_name">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

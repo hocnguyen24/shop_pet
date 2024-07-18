@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog_btsheet"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtChiTietSanPham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Chi tiết sản phẩm"
+            android:textAlignment="center"
+            android:textColor="@color/mau_chu"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtTenSanPham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Tên sản phẩm"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtMaSanPham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Mã sản phẩm"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtSoLuotBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Số lượt bán "
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtGiaSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Giá"
+            android:drawableEnd="@drawable/ic_coin"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtLoaiSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Loại sản phẩm"
+
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtMoTa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Mô tả"
+
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDongDialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/khung_button"
+                android:text="Đóng"
+                android:textColor="@color/mau_chu" />
+
+            <Button
+                android:id="@+id/btnThemVaoGio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/khung_button"
+                android:text="Thêm vào giỏ"
+                android:textColor="@color/mau_chu" />
+            <TextView
+                android:id="@+id/txtHetHang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Đã hết hàng"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@color/mau_do"
+                android:fontFamily="@font/baloothambi2regular"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

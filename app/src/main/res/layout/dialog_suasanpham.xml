@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen_dialog_doan"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloothambi2bold"
+            android:gravity="center"
+            android:text="Sửa sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:text="Thêm link ảnh: "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_Up_Anh_San_Pham"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/vien_input_doan"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:hint="Nhập ở đây...."
+            android:padding="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:text="Tên sản phẩm: "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edten_san_pham"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/vien_input_doan"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:hint="Nhập ở đây...."
+            android:padding="10sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:text="Giá sản phẩm: "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edgia_san_pham"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/vien_input_doan"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:hint="Nhập ở đây...."
+            android:padding="10sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:text="Mã loại sản phẩm: "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/spnma_loai_san_pham"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+
+            android:background="@drawable/vien_input_doan" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:text="Số lượng: "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edsoluong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/vien_input_doan"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:hint="Nhập ở đây...."
+            android:padding="10sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:text="Mô tả: "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edmo_ta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/vien_input_doan"
+            android:fontFamily="@font/baloothambi2semibold"
+            android:hint="Nhập ở đây...."
+            android:padding="10sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25sp"
+            android:padding="5sp">
+
+            <Button
+                android:id="@+id/btnhuy_suasp"
+                android:layout_width="150sp"
+                android:layout_height="35sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/khung_button"
+                android:text="Hủy"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnsuasp"
+                android:layout_width="150sp"
+                android:layout_height="35sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/khung_button"
+                android:text="Cập nhật"
+                android:textAllCaps="false"
+                android:textColor="@color/xanh_doan" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

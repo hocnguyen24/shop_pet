@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10sp"
+    android:layout_marginTop="10sp"
+    android:background="@drawable/khung_item"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_Item_Anh_San_Pham"
+            android:layout_width="130dp"
+            android:layout_height="150sp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+        <!-- Điều chỉnh kích thước ở đây -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtma_san_pham"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/baloothambi2regular"
+                    android:text="ma san pham "
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/btnxoa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="7sp"
+                    android:layout_marginRight="10sp"
+                    android:background="@drawable/khung_item"
+                    android:src="@drawable/ic_xoa" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txt_ten_san_pham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="@font/baloothambi2regular"
+                android:text="ten san pham "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txttrang_thai_san_pham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="@font/baloothambi2regular"
+                android:text="Trạng thái: còn hàng "
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/txttrang_thai_san_pham1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="@font/baloothambi2regular"
+                android:text="Trạng thái: hết hàng "
+                android:visibility="gone"
+                android:textColor="@color/mau_do"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/txtgia_san_pham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="@font/baloothambi2regular"
+                android:text="Gia san pham "
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/txtsoluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="@font/baloothambi2regular"
+                android:text="so luong"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtSoLuongBanRa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="So luong da ban: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtma_loai_san_pham2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="Ma loai san pham: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtten_loai_san_pham2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="ten loai san pham: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtmo_ta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="mô tả "
+        android:textSize="20sp" />
+</LinearLayout>

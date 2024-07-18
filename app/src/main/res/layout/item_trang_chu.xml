@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170sp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20sp"
+    android:layout_marginHorizontal="3sp"
+    android:background="@color/hong_nhat"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_AnhSp_Trang_Chu"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtten_san_pham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2sp"
+        android:fontFamily="@font/baloothambi2regular"
+        android:text="Ten san pham"
+        android:textSize="15sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtgiasp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_coin"
+            android:text="100"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnmuahang"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnmuahang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/hong_nhat"
+            android:src="@drawable/cart_doan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.942"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

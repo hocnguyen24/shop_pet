@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nen_dialog_doan"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:gravity="center"
+        android:text="Chỉnh sửa coins"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtmanguoi_dung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="6sp"
+        android:text="ma nguoi dung"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtten_nguoi_dung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="13sp"
+        android:text="ten nguoi dung"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edso_tien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:background="@drawable/khung_edittext"
+        android:hint="dddd"
+        android:padding="10sp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="15sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginEnd="20sp"
+            android:background="@drawable/khung_button"
+            android:fontFamily="@font/baloothambi2medium"
+            android:paddingHorizontal="60sp"
+            android:text="Hủy"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/btnchinhsua"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:background="@drawable/khung_button"
+            android:fontFamily="@font/baloothambi2medium"
+            android:text="Chỉnh sửa"
+            android:paddingHorizontal="40sp"
+            android:textAllCaps="false"
+            android:textColor="#3852B0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:padding="5sp"
+    android:background="@color/hong_nhat"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đánh giá sản phẩm"
+     android:textStyle="bold"
+        android:layout_marginBottom="6sp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/eddanhgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung_button"
+        android:layout_marginBottom="10sp"
+        android:paddingVertical="15sp"
+        android:hint="Nhập đánh giá" />
+
+    <EditText
+        android:id="@+id/ednhanxet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:paddingVertical="15sp"
+        android:background="@drawable/khung_button"
+        android:hint="Nhập nhận xét" />
+
+    <Button
+        android:id="@+id/btnthembinhluan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FBE7F8"
+        android:textColor="@color/mau_chu"
+        android:text="Gửi" />
+</LinearLayout>

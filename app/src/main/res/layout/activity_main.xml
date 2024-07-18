@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_hong">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_Layout_Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--            <com.google.android.material.appbar.AppBarLayout-->
+            <!--                android:id="@+id/appBarLayout"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                >-->
+            <!--                <com.google.android.material.appbar.CollapsingToolbarLayout-->
+            <!--                    android:id="@+id/collapsingToolbarLayout"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    app:layout_scrollFlags="scroll|snapMargins">-->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_Main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:background="@drawable/khung_toolbar"
+                app:titleTextColor="@color/mau_chu"
+                app:navigationIcon="@drawable/ic_menu">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    android:layout_gravity="end"
+                    android:layout_marginRight="15sp">
+
+                    <TextView
+                        android:id="@+id/txtSoTien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:drawableEnd="@drawable/ic_coin"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10sp"
+                        android:textSize="18sp"/>
+
+                    <ImageView
+                        android:id="@+id/btn_proFile"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="10sp"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <!--                </com.google.android.material.appbar.CollapsingToolbarLayout>-->
+            <!--            </com.google.android.material.appbar.AppBarLayout>-->
+
+            <FrameLayout
+                android:id="@+id/frameLayoutMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="70sp"/>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView_Main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/header_menu"
+            app:menu="@menu/menu_quan_ly"
+            android:background="@color/mau_hong"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_bottom_Main"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_gravity="bottom"
+        android:background="@color/vang_nhat"
+        app:menu="@menu/menu_nav_bottom"
+        app:itemBackground="@drawable/nav_bottom"
+        />
+
+</FrameLayout>

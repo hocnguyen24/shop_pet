@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_bot_home"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ"
+        />
+
+    <item
+        android:id="@+id/nav_bot_sanpham"
+        android:icon="@drawable/ic_sanpham"
+        android:title="Gian hàng" />
+
+    <item
+        android:id="@+id/nav_bot_giohang"
+        android:icon="@drawable/ic_giohang"
+        android:title="Giỏ hàng" />
+
+    <item
+        android:id="@+id/nav_bot_naptien"
+        android:icon="@drawable/ic_naptien"
+        android:title="Nạp tiền" />
+
+
+</menu>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pet_Pet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Pet_Pet" parent="Base.Theme.Pet_Pet" />
+
+    <style name="PesShop2">
+
+        <item name="errorTextColor">@color/mau_do</item>
+        <item name="boxBackgroundColor">@color/hong_nhat</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom_sort_mem</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom_sort_mem</item>
+    </style>
+    <style name="TextInput">
+        <item name="colorError">@color/vang_dam</item>
+        <item name="editTextBackground">@color/vang_dam</item>
+    </style>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_qlnguoidung"
+        android:title="Quản lý người dùng"
+        android:icon="@drawable/ic_qlnguoidung"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlsanpham"
+        android:title="Quản lý sản phẩm"
+        android:icon="@drawable/ic_qlsanpham"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlLoaisanpham"
+        android:title="Quản lý loại sản phẩm"
+        android:icon="@drawable/ic_loaisp"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlDonHang"
+        android:title="Quản lý đơn hàng"
+        android:icon="@drawable/ic_qldonhang"
+        android:orderInCategory="400"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlNapTien"
+        android:title="Quản lý nạp tiền"
+        android:icon="@drawable/ic_qlnaptien"
+        android:orderInCategory="500"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlThongKe"
+        android:title="Thống kê"
+        android:icon="@drawable/ic_thongke"
+        android:orderInCategory="600"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_LichSu"
+        android:title="Lịch sử đơn hàng"
+        android:icon="@drawable/baseline_lich_su_mua"
+        android:orderInCategory="600"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_qlVeChungToi"
+        android:title="Về chúng tôi"
+        android:icon="@drawable/ic_vechungtoi"
+        android:orderInCategory="700"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlDangXuat"
+        android:title="Đăng xuất"
+        android:icon="@drawable/ic_dangxuat"
+        android:orderInCategory="800"
+        app:showAsAction="never" />
+</menu>

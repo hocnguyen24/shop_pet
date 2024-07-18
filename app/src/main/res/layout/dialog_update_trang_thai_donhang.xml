@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nen_dialog_doan"
+    android:gravity="center"
+    android:layout_margin="10sp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloothambi2bold"
+        android:gravity="center"
+        android:text="Update trạng thái đơn hàng"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="18sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="Trạng thái"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/txt_trang_thai"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:focusable="false"
+        android:inputType="none"
+        android:textSize="20sp"
+        android:background="@drawable/vien_input_doan" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_gravity="center"
+        android:padding="5sp">
+        <Button
+            android:id="@+id/btnhuy_trangthai"
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:background="@drawable/khung_button"
+            android:textAllCaps="false"
+            android:text="Hủy"
+            android:layout_marginTop="10sp"/>
+
+        <Button
+            android:id="@+id/btnxacnhan_trangthai"
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:background="@drawable/khung_button"
+            android:textColor="@color/xanh_doan"
+            android:text="Xác nhận"
+            android:textAllCaps="false"
+            android:layout_gravity="end"
+            android:layout_marginTop="10sp"/>
+    </FrameLayout>
+
+
+</LinearLayout>

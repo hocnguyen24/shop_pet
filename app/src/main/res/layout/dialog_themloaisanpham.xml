@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen_dialog_doan"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="Nhập tên loại sản phẩm cần thêm: "
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edten_loai_san_pham"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/vien_input_doan"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:hint="Nhập ở đây...."
+        android:padding="10sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_gravity="center"
+        android:padding="5sp">
+        <Button
+            android:id="@+id/btnhuy_themlsp"
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:background="@drawable/khung_button"
+            android:textAllCaps="false"
+            android:text="Hủy"
+            android:layout_marginTop="10sp"/>
+
+        <Button
+            android:id="@+id/btnthemlsp"
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:background="@drawable/khung_button"
+            android:textColor="@color/xanh_doan"
+            android:text="Thêm"
+            android:textAllCaps="false"
+            android:layout_gravity="end"
+            android:layout_marginTop="10sp"/>
+    </FrameLayout>
+</LinearLayout>

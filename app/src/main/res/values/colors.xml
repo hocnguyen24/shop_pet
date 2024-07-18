@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mau_hong">#DE95A8</color>
+    <color name="vang_nhat">#FFEFE0</color>
+    <color name="hong_nhat">#E2BCB7</color>
+    <color name="vang_dam">#EAD1CE</color>
+    <color name="mau_button">#E2BCB7</color>
+    <color name="mau_chu">#4E352F</color>
+    <color name="xanh_doan">#00CCFF</color>
+    <color name="mau_do">#FF0000</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sign_up">
+        <item name="android:textSize">34sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">#4E352F</item>
+    </style>
+    <style name="user_name">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">#4E352F</item>
+    </style>
+    <style name="bottom_style">
+        <item name="android:background">@color/vang_dam</item>
+    </style>
+</resources>

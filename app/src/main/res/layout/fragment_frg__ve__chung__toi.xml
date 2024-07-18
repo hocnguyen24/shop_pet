@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.frg_Ve_Chung_Toi"
+    android:background="@drawable/khung_item"
+    android:orientation="vertical"
+    android:layout_margin="10sp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloothambi2bold"
+        android:gravity="center"
+        android:text="Thông tin về chúng tôi"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="   Chào mừng bạn đến với PetShop , nơi đáng tin cậy để mua sắm đồ ăn cho thú cưng của bạn! Chúng tôi tự hào cung cấp một loạt đa dạng các sản phẩm chất lượng cao, đảm bảo đáp ứng mọi nhu cầu dinh dưỡng của các bé cưng yêu quý. Tại Pets, bạn sẽ khám phá được những thương hiệu nổi tiếng và các lựa chọn thực phẩm chất lượng nhất từ thức ăn khô đến thức ăn ướt, từ thức ăn tự nấu đến đồ ăn chức năng. Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng tư vấn và hỗ trợ bạn chọn lựa sản phẩm phù hợp nhất để đảm bảo thú cưng của bạn có một chế độ dinh dưỡng hoàn hảo. Hãy đặt niềm tin của bạn vào PetShop để mang lại niềm vui và sức khỏe cho người bạn đồng hành tuyệt vời của bạn!"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="   Ứng dụng PetShop còn tích hợp nhiều tính năng thông minh giúp tối ưu hóa trải nghiệm của người dùng. Bạn có thể dễ dàng tìm kiếm sản phẩm theo loại thú cưng, nhãn hiệu hoặc tính năng dinh dưỡng."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="PetShop cam kết mang đến trải nghiệm thanh toán trực tuyến thuận lợi và tiện ích cho người dùng. Với hệ thống thanh toán an toàn và đáng tin cậy, bạn có thể nạp tiền vào tài khoản của mình một cách dễ dàng thông qua các phương thức thanh toán phổ biến như thẻ tín dụng, thẻ ghi nợ, hoặc ví điện tử."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="Mọi thắc mắc có thể liên hệ với admin bằng Gmail: abc@gmail.com hoặc bằng tổng đài hỗ trợ của PetShop: 1900231024"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
